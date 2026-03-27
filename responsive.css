@@ -1,0 +1,62 @@
+@media only screen and (max-width:650px) {
+
+    #hero #one {
+        width: 27vw;
+    }
+
+    #gallery .first {
+        width: 95vw;
+        max-width: 95vw;
+    }
+
+    #third-part img {
+        width: 36vw;
+    }
+
+    #fourth-part>div {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:593px) {
+    #hero {
+        width: min-content;
+        padding: 0px;
+    }
+
+    #hero #one{
+       width: 21vw;
+    }
+    #hero #two{
+        width:13vw;
+    }
+
+    #gallery p{
+        font-size: 6vw;
+    }
+    #gallery .first h1{
+        font-size: 1em;
+    }
+
+    #third-part button{
+        width: 178px;
+        font-size: 14px;
+    }
+    
+
+    #sixth-part>div {
+        max-width: 76vw;
+    }
+
+    #sixth-part div h3 {
+        font-size: 1.5rem;
+    }
+    #sixth-part button{
+        width: 197px;
+        font-size: 15px;
+    }
+
+    #scanner img {
+        max-width: 74vw;
+    }
+}

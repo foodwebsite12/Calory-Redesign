@@ -1,0 +1,301 @@
+#first-part {
+    background-color: rgb(209, 209, 238);
+    height: 2000px;
+}
+
+header {
+    font-size: 30px;
+    height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+
+
+
+img {
+    width: 50px;
+}
+
+div>b {
+    font-family: serif;
+}
+
+#second {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+
+/* Hero-Section */
+#hero {
+    display: flex;
+    margin-top: 28px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+
+
+#hero b {
+    color: blue;
+}
+
+#hero button,
+#scanner button,
+#third-part button,#sixth-part button {
+    width: 250px;
+    height: 47px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 3px 112px 3px blue;
+}
+
+
+#hero #one {
+    width: 51vw;
+    z-index: 10;
+    position: relative;
+    right: -60px;
+}
+
+#hero #two {
+    width: 15vw;
+    z-index: 1;
+    transform: rotate3d(11, 60, 1, 45deg);
+    scale: 1.5;
+}
+
+
+
+
+
+#gallery {
+    position: relative;
+    max-width: 96vw;
+    height: auto;
+    top: 100px;
+}
+
+#gallery >p {
+    text-align: center;
+    font-size: 43px;
+    font-family: sans-serif;
+}
+
+#gallery .first {
+    position: relative;
+    display: flex;
+    top: 0px;
+    background-color: white;
+    box-shadow: 1px 3px 85px -56px white;
+    border-radius: 4%;
+    height: 260px;
+    width: 73%;
+    margin: auto;
+    margin-bottom: 59px;
+   
+}
+
+#gallery .first div {
+    margin-left: 30px;
+}
+
+#gallery .first h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#gallery .first img {
+    margin: 15px;
+    width: 45%;
+    height: auto;
+    border-radius: 13%;
+}
+
+#gallery .first div p {
+    font-size: 2vw;
+    position: relative;
+    top: 65px;
+}
+
+/* Second-part */
+
+/* Scanner-section */
+#scanner {
+    height: 765px;
+}
+
+#scanner img{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+#scanner div,
+#features {
+    text-align: center;
+}
+
+#features h2{
+    font-size: xxx-large;
+    font-family: system-ui;
+}
+
+/* Feature-section */
+#fgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fgallery>div {
+    width: 40vw;
+    margin: 20px;
+}
+#fgallery div i{
+    border: 2px solid rgb(110, 110, 127);
+    border-radius: 30%;
+    font-size: 54px;
+    padding: 10px;
+    background-color: rgba(92, 92, 162, 0.367);
+}
+
+/* Third-part */
+#third-part {
+    background-color: rgb(209, 209, 238);
+    display: flex;
+    padding: 40px;
+}
+
+#third-part img {
+    width: 50vw;
+}
+
+/* Fourth-part */
+
+#fourth-part h2 {
+    text-align: center;
+    font-size: 47px;
+    font-family: sans-serif;
+    margin: 70px 0px;
+}
+
+#fourth-part>div {
+    display: flex;
+}
+
+#fourth-part>div div {
+    padding: 20px;
+}
+
+#fourth-part>div div p {
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+#fourth-part #sec {
+    background-color: rgb(205, 205, 250);
+    border-radius: 20px;
+}
+
+/* Fifth-part */
+#fifth-part .app h3 {
+    text-align: center;
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 16px;
+}
+
+#fifth-part .app p {
+    font-size: 23px;
+    text-align: center;
+}
+
+#fifth-part .photo {
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    justify-content: center;
+}
+
+#fifth-part img {
+    position: relative;
+    width: 195px;
+    z-index: -10;
+    opacity: 0.2;
+}
+
+#fifth-part #mid-image {
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+}
+
+/* sixth-part */
+#sixth-part{
+    background-color: rgb(188, 188, 252);
+    height: 960px;
+}
+#sixth-part h4 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#sixth-part details{
+    width: 90vw;
+    height: 63px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sixth-part details summary{
+    font-weight: 700;
+}
+
+#sixth-part >div{
+    background-color: white;
+    width: 86vw;
+    margin: auto;
+    display: flex;
+    height: 286px;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    padding: 30px;
+}
+#sixth-part div h3{
+    font-size: 2.5rem;
+    font-family:sans-serif;
+}
+#sixth-part img{
+    width: 144px;
+}
+
+/* Last-part */
+#last-part{
+    height: 377px;
+}
+
+#last-part .privacy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 151px;
+    text-align: end;
+}
+
+#last-part .second-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
